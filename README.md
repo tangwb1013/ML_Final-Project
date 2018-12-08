@@ -1,5 +1,6 @@
 # ML_Final-Project
 1. set up the development environment
+
    mkdir self-driving
    cd self-driving
    virtualenv --no-site-packages venv
@@ -20,7 +21,9 @@
    sudo apt-get install python3-tk
 
 2. train the model
+
    python model.py
 
 3. run the model
+
    python drive.py model.json
